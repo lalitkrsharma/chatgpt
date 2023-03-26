@@ -13,12 +13,17 @@ function Message({ msg, type, time }) {
       <div
         className={`flex flex-col items-start justify-center text-white rounded-xl p-4 ${
           type === 'bot'
-            ? 'bg-[#3A3F47] rounded-tl-none'
-            : 'bg-[#8AA1FF] rounded-br-none'
+            ? 'bg-[#1996b3] rounded-tl-none'
+            : 'bg-[#1da1f2] rounded-br-none'
+
+            // Default Background Color =
+            // ? 'bg-[#3A3F47] rounded-tl-none'
+            // : 'bg-[#8AA1FF] rounded-br-none'
         }`}
       >
         <p>{msg}</p>
-        <span className={`text-xs mt-2 ${type === 'bot' && 'text-[#949494]'}`}>
+        <span className={`text-xs mt-2 ${type === 'bot' && 'text-[#FFFFFF]'}`}>
+          {/* Default background color = text-[#949494] */}
           {time}
         </span>
       </div>
@@ -41,7 +46,7 @@ export default function Messages({ messages }) {
         messages.map((message, index) => <Message key={index} {...message} />)
       ) : (
         <div className="flex items-center justify-center h-full">
-          <p className="text-white text-sm">Ask the bot anything...</p>
+          <p className="font-mono text-white text-sm hover:scale-110">Hello!!🖐 I'm A.I.S.H.A, How can i assist you today?</p>
         </div>
       )}
       <div ref={messagesEndRef} />

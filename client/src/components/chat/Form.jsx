@@ -50,15 +50,19 @@ export default function Form({ setMessages }) {
         type="text"
         value={message}
         onChange={e => setMessage(e.target.value)}
-        className="bg-[#3A3F47] text-white placeholder:text-[#949494] text-sm rounded-2xl p-4 w-full outline-none"
-        placeholder="Type your message here..."
+        className="bg-[#002244] text-white placeholder:text-[#ffffff] text-sm rounded-2xl p-4 w-full outline-none"
+        placeholder="Type your queries here..."
+        // =======================Default Box=========================
+        // className="bg-[#3A3F47] text-white placeholder:text-[#949494] text-sm rounded-2xl p-4 w-full outline-none"
+        // placeholder="Type your message here..."
       />
       <button
         type="submit"
         onClick={sendMessage}
-        className="absolute right-0 mr-2 bg-white hover:opacity-50 active:opacity-100 transition-colors py-2 px-3 rounded-xl"
+        className="absolute right-0 mr-2 bg-white hover:bg-[#00CCCC] active:opacity-100 transition-colors py-2 px-3 rounded-xl"
       >
-        <SendIcon className="w-5 h-5 fill-[#3A3F47]" />
+        <SendIcon className="w-5 h-5 fill-[#002244]" />
+        {/* Default Background Color = fill-[#3A3F47] */}
       </button>
     </form>
   );

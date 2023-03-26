@@ -12,10 +12,11 @@ const Logo = props => {
 export default function Head() {
   return (
     <div className="flex items-center">
-      <div className="bg-[#10A37F] flex items-center justify-center p-4 rounded-2xl">
+      <div className="bg-[#1da1f2] flex items-center justify-center p-4 rounded-2xl">
+        {/* Default Background Color = bg-[#10A37F] */}
         <Logo className="w-8 h-8" />
       </div>
-      <span className="text-white ml-4 text-lg">A.I.S.H.A.</span>
+      <span className="font-bold text-3xl text-white ml-4 text-lg hover:text-[#73C2FB]">A.I.S.H.A.</span>
     </div>
   );
 }
