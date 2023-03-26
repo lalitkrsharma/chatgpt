@@ -14,7 +14,7 @@ export default function Head() {
     <div className="flex items-center">
       <div className="bg-[#1da1f2] flex items-center justify-center p-4 rounded-2xl">
         {/* Default Background Color = bg-[#10A37F] */}
-        <Logo className="w-8 h-8" />
+        <Logo className="w-8 h-8 hover:scale-110" />
       </div>
       <span className="font-bold text-3xl text-white ml-4 text-lg hover:text-[#73C2FB]">A.I.S.H.A.</span>
     </div>
