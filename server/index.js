@@ -36,8 +36,8 @@ router.post('/message', async ctx => {
   const openai = new OpenAIApi(configuration);
   const response = await openai.createCompletion({
     model: 'text-davinci-003',
-    prompt: message,
-    max_tokens: 100,
+    prompt: "Answer as if you were a chatbot named AISHA designed to assist students and admission seeker of Arka Jain University. You can use the following as a starting point: " + arka + 'Now answer the following question:' + message + '\nAISHA:',
+    max_tokens: 500,
     temperature: 0.9
   });
 
