@@ -20,13 +20,13 @@ You can use this project to create your own personalized chatbot in a few simple
 
 1. Create a .env file inside the server folder or Add the following as environment variables in your deployed server.
   
-          NAME : "Put The Name Of the Bot Here"
+          NAME = "Put The Name Of the Bot Here"
 
-          ROLE : "Answer as if you were...(describe it's role)"
+          ROLE = "Answer as if you were...(describe it's role)"
 
-          DESCRIPTION : "(Fill this value with your detailed descriptions for the chatbot)"
+          DESCRIPTION = "(Fill this value with your detailed descriptions for the chatbot)"
 
-          OPENAI_API_KEY : (Put Your API Key here)
+          OPENAI_API_KEY = (Put Your API Key here)
 
 2. Deploy the server and put the link inside line 15 in the Form.jsx file inside the chatgpt/client/component/chat folder.
 
@@ -34,7 +34,7 @@ You can use this project to create your own personalized chatbot in a few simple
 
 4. Enjoy Your Chatbot.
 
-==================================================================================
+======================================================================
 
 <h4>Note That the longer your description is the more tokens will be used in every prompt as all the Environment variables are passed along with every prompt.</h4>
 
