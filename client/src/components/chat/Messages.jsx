@@ -46,7 +46,7 @@ export default function Messages({ messages }) {
         messages.map((message, index) => <Message key={index} {...message} />)
       ) : (
         <div className="flex items-center justify-center h-full">
-          <p className="font-mono text-white text-sm hover:scale-110">Hello!!🖐 I'm A.I.S.H.A, How can i assist you today?</p>
+          <p className="font-mono text-white text-sm hover:scale-110">Hello!!🖐🏻 I'm A.I.S.H.A, How can i assist you today?</p>
         </div>
       )}
       <div ref={messagesEndRef} />

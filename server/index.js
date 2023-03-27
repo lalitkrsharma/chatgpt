@@ -8,7 +8,9 @@ const { Configuration, OpenAIApi } = require('openai');
 const app = new Koa();
 const router = new Router();
 const port = process.env.PORT || 4000;
-const arka = process.env.Description;
+const description = process.env.DESCRIPTION;
+const ready = process.env.ROLE;
+const Name = process.env.NAME;
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY
@@ -36,7 +38,7 @@ router.post('/message', async ctx => {
   const openai = new OpenAIApi(configuration);
   const response = await openai.createCompletion({
     model: 'text-davinci-003',
-    prompt: "Answer as if you were a chatbot named AISHA designed to assist students and admission seeker of Arka Jain University. You can use the following as a starting point: " + arka + 'Now answer the following question:' + message + '\nAISHA:',
+    prompt: ready + 'You can use the following as a starting point:' + description + 'Now answer the following question:' + message + Name + ':',
     max_tokens: 500,
     temperature: 0.9
   });
