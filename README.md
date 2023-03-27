@@ -33,3 +33,10 @@ You can use this project to create your own personalized chatbot in a few simple
 3. Replace the name of the chatbot from the Head.jsx(line 19) & Message.jsx(line 49) files & Finally deploy the client folder on the web. (I used Vercel for this)
 
 4. Enjoy Your Chatbot.
+
+==================================================================================
+
+<h4>Note That the longer your description is the more tokens will be used in every prompt as all the Environment variables are passed along with every prompt.</h4>
+
+I'm currently working on switching the api from Davinci to GPT3. Once that is done the chats would be continuos & won't use as many tokens.
+
