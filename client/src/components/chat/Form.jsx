@@ -12,7 +12,7 @@ export default function Form({ setMessages }) {
   const [message, setMessage] = useState('');
 
   const messageResponse = async () => {
-    const { data } = await axios.post('http://localhost:4000/message', {
+    const { data } = await axios.post('https://aisha-1vkv.onrender.com/message', {
       message
     });
 
