@@ -8,7 +8,7 @@ It's currently deployed on https://chatgpt-lalitkrsharma.vercel.app/
 
 The API costs me money, So it probably won't work forever but it does work as of March 2023.
 
-I had fun making this project. Thank you for checking it out.
+I had fun making this project. Thank you for checking it out
 
 
 ===========================================================================
