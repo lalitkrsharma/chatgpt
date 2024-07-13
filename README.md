@@ -3,7 +3,7 @@
 
 ![AISHA](https://raw.githubusercontent.com/lalitkrsharma/AISHA-chatbot/fdecf3a668ef04aa521b49092846ed5ead4aea70/AISHA.png)
 
-This app is built on NextJs framework utilizing tailwind & JavaScript.
+This app is built on NextJs framework utilizing tailwind & JavaScript
 
 It's currently deployed on https://chatgpt-lalitkrsharma.vercel.app/
 
