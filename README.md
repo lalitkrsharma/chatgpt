@@ -1,5 +1,5 @@
 <h1>A.I.S.H.A stands for Artificially Intelligent Super Helpful Assistant.</h1>
-<h3>It's a CHATGPT powered chatbot built to assist students.</h3>
+<h3>It's a CHATGPT powered chatbot built to assist student queries.</h3>
 
 ![AISHA](https://raw.githubusercontent.com/lalitkrsharma/AISHA-chatbot/fdecf3a668ef04aa521b49092846ed5ead4aea70/AISHA.png)
 
